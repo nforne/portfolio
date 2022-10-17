@@ -2,9 +2,9 @@ import React from "react";
 import SmallHeading from "../UI/SmallHeading";
 import MediumHeading from "../UI/MediumHeading";
 import Card from "../UI/Card";
-import testimonialsLeft from "../../assets/images/testimonials-01.jpg";
-import testimonialsRight from "../../assets/images/testimonials-02.jpg";
-import profilePicture from "../../assets/images/testimonial-pic.jpg";
+import testimonialsLeft from "../../assets/images/testimonials-01.png";
+import testimonialsRight from "../../assets/images/testimonials-02.png";
+import profilePicture from "../../assets/images/testimonial-pic.png";
 
 import "./style.css";
 
@@ -33,8 +33,8 @@ const Testimonials = (props) => {
               <img src={profilePicture} alt="" />
             </div>
             <div className="mlr-10">
-              <p className="primaryColor font-16">Rizwan Khan</p>
-              <p className="textColor font-14 bold-600">Software Developer</p>
+              <p className="primaryColor font-16"> Martin Nforne </p>
+              <p className="textColor font-14 bold-600">Software Engineer</p>
             </div>
           </div>
           <p className="mtb-10 grey">
@@ -57,7 +57,7 @@ const Testimonials = (props) => {
           Have any project in mind?{" "}
           <span className="primaryColor">Say Hello At</span>
         </p>
-        <p className="text-center font-25">rizwankhan.august16@gmail.com</p>
+        <p className="text-center font-25">wnforne@gmail.com</p>
       </Card>
     </div>
   );

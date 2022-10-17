@@ -4,6 +4,7 @@ import MediumHeading from "../UI/MediumHeading";
 import SmallHeading from "../UI/SmallHeading";
 import Skill from "../UI/Skill";
 import { colors } from "../../style";
+import './style.css'
 
 /**
  * @author
@@ -55,14 +56,14 @@ const Specializing = (props) => {
       pathColor: "#54e346",
     },
     {
-      skillName: "PHP",
+      skillName: "Python",
       desc: "Hands on experience in Html/Css",
       value: 80,
       textColor: colors.primaryColor,
       pathColor: "#111d5e",
     },
     {
-      skillName: "Mysql",
+      skillName: "SQL",
       desc: "Hands on experience in Html/Css",
       value: 70,
       textColor: colors.primaryColor,
@@ -71,7 +72,7 @@ const Specializing = (props) => {
   ];
 
   return (
-    <div className="container">
+    <div style={{borderRadius: '10px'}} className="container">
       <Card style={{ padding: "50px" }}>
         <SmallHeading text="What I do" />
         <MediumHeading text="Specializing in" />

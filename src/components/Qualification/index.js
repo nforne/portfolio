@@ -17,10 +17,7 @@ const Qualification = (props) => {
     <div className="container" style={{ padding: "50px 0" }}>
       <SmallHeading text="Qualifications" />
       <MediumHeading text={"My Education"} />
-      <div
-        className="flexRow flexCol align-center justify-sb"
-        style={{ margin: "50px 0" }}
-      >
+      <div className="flexRow flexCol align-center justify-sb" style={{ margin: "50px 0" }}>
         <div data-aos="fade-up-right">
           <img src={me} alt="" />
           <div
@@ -43,18 +40,18 @@ const Qualification = (props) => {
         </div>
         <div>
           <Tile
-            title="MAKAUT"
-            mediumTitle="Computer Science & Engg."
+            title="University of Bamenda"
+            mediumTitle="Bachelor of Science (BSc) in Physics"
             desc="lorem ipsum text"
           />
           <Tile
-            title="MAKAUT"
-            mediumTitle="Computer Science & Engg."
+            title="Amazon Web Services"
+            mediumTitle="AWS Certified DevOps Engineer Professional."
             desc="lorem ipsum text"
           />
           <Tile
-            title="MAKAUT"
-            mediumTitle="Computer Science & Engg."
+            title="LIGHTHOUSELABS"
+            mediumTitle="Full-Stack Development"
             desc="lorem ipsum text"
           />
         </div>

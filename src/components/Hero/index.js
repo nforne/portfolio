@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../assets/images/me-right.png";
+import me from "../../assets/images/me-left.png";
 import Button from "../UI/Button";
 import "./style.css";
 
@@ -14,10 +14,10 @@ const Hero = (props) => {
       <div className="flexRow flexCol justify-sb align-center">
         <div data-aos="fade-right">
           <p className="uppercase bold-500 textColor ls-1 mtb-10">
-            <span className="primaryColor">Hello,</span> I am Rizwan Khan
+            <span className="primaryColor">Hello,</span> I am MARTIN Nforne
           </p>
-          <h1 className="textColor ls-1 mtb-10">Software Developer</h1>
-          <p className="font-12 grey mtb-10">FullStack Developer using JS.</p>
+          <h1 className="textColor ls-1 mtb-10">Software Engineer</h1>
+          <p className="font-12 grey mtb-10"> FullStack Developer / DevOps Engineer </p>
           <div className="flexRow" style={{ margin: "30px 0" }}>
             <div>
               <Button label="Hire Me" />
@@ -28,7 +28,7 @@ const Hero = (props) => {
           </div>
         </div>
         <div data-aos="fade-left">
-          <div className="meRightImgContainer">
+          <div className="meRightImgContainer mtb-10">
             <img src={me} alt="" />
           </div>
         </div>
