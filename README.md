@@ -1,4 +1,4 @@
-# Descriton:
+# Descripton:
 - A simple responsible SPA - Professional Portfolio
 
 ## Tech Stack: 
@@ -7,7 +7,6 @@
 ## Getting Started
 
 - Install all dependencies (using the `npm install` command).
-- Note: The app requires a backend. [HERE](https://github.com/nforne/safe2ship) is how to set it up.
 
 * npm i /*dependency name*/
 * `Its a react app. So you'll need to install react and all the dependencies.`
@@ -37,8 +36,8 @@ npm run storybook
 
 ## Final Product
 
-![Screenshot1](/assets/docs/Portfolio_SPA_1.png)
-![Screenshot1](/assets/docs/Portfolio_SPA_2.png)
+![Screenshot1](/src/assets/docs/Portfolio_SPA_1.png)
+![Screenshot1](/src/assets/docs/Portfolio_SPA_2.png)
 
 ## Team members
 
