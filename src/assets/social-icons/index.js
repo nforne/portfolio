@@ -1,7 +1,7 @@
 export default {
-  github: require(`./github.png`).default,
-  facebook: require(`./facebook.png`).default,
-  instagram: require(`./instagram.png`).default,
-  linkedin: require(`./linkedin.png`).default,
-  youtube: require(`./youtube.png`).default,
+  github: require(`./github.png`),
+  facebook: require(`./facebook.png`),
+  instagram: require(`./instagram.png`),
+  linkedin: require(`./linkedin.png`),
+  youtube: require(`./youtube.png`),
 };

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import {React, useEffect } from "react";
 import Hero from "./components/Hero";
 import Specializing from "./components/Specializing";
 import Expertise from "./components/Expertise";
@@ -10,23 +10,22 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Scrollup from "./components/scrollup";
 
-import image from './assets/social-icons' 
-
 /**
  * @author
  * @function App
  **/
 
 const App = (props) => {
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
     });
   }, []);
 
+  
   return (
     <div>
-      <img src='./assets/social-icons/github.png' alt=""></img>
       <Hero />
       <Specializing />
       {/* <Expertise /> */}
