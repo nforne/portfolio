@@ -1,3 +1,58 @@
+# Descriton:
+- A simple responsible SPA - Professional Portfolio
+
+## Tech Stack: 
+* React Babel, Storybook, Webpack Dev Server, Jest, Testing Library, HTML, CSS, JavaScript
+
+## Getting Started
+
+- Install all dependencies (using the `npm install` command).
+- Note: The app requires a backend. [HERE](https://github.com/nforne/safe2ship) is how to set it up.
+
+* npm i /*dependency name*/
+* `Its a react app. So you'll need to install react and all the dependencies.`
+
+## Dependencies
+
+* [See package.json in the repo]
+
+## Running Webpack Development Server
+
+```sh
+npm start
+```
+
+## Running Jest Test Framework
+
+```sh
+npm test
+```
+
+## Running Storybook Visual Testbed
+
+```sh
+npm run storybook
+```
+## /*Open to improvements and further addaptations*/
+
+## Final Product
+
+![Screenshot1](/assets/docs/Portfolio_SPA_1.png)
+![Screenshot1](/assets/docs/Portfolio_SPA_2.png)
+
+## Team members
+
+-	Martin Nforne - wnforne@gmail.com
+
+[Github Repo](https://github.com/nforne/portfolio/tree/feature/testBuild)
+
+
+
+
+
+
+# ----------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -55,7 +55,7 @@ const Expertise = (props) => {
                   })}
                 />
               </div>
-              <h2 className="textColor mlr-10">Development</h2>
+              <h2 className="textColor mlr-10"> Development </h2>
             </div>
             <p className="grey mtb-10 font-12">
               JavaScript is one of the greatest programming languages ever!
