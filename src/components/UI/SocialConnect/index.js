@@ -12,6 +12,9 @@ const SocialConnect = (props) => {
     <div className="socialConnect" style={props.style}>
       <span className="textColor font-12">Follow me on: </span>
       <a className="socialLink" href="#">
+        <img src={socialIcons.github} alt="" />
+      </a>
+      <a className="socialLink" href="#">
         <img src={socialIcons.facebook} alt="" />
       </a>
       <a className="socialLink" href="#">

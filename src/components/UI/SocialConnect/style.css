@@ -1,6 +1,6 @@
 .socialConnect{
     background: #ffffff;
-    width: 300px;
+    width: 350px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -8,8 +8,8 @@
     border-radius: 20px;
 }
 .socialConnect .socialLink{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid #ffffff;

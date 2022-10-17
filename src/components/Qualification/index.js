@@ -17,7 +17,7 @@ const Qualification = (props) => {
     <div className="container" style={{ padding: "50px 0" }}>
       <SmallHeading text="Qualifications" />
       <MediumHeading text={"My Education"} />
-      <div className="flexRow flexCol align-center justify-sb" style={{ margin: "50px 0" }}>
+      <div className="flexRow flexCol align-center justify-sb edQualifications" style={{ margin: "50px 0" }}>
         <div data-aos="fade-up-right">
           <img src={me} alt="" />
           <div

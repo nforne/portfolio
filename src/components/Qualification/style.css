@@ -1,4 +1,6 @@
-.flexRow div img {
+.edQualifications div img {
   border-radius: 10px;
   overflow: hidden;
+  width: 400px;
+  height: 400px;
 }

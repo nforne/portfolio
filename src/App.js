@@ -8,6 +8,9 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Scrollup from "./components/scrollup";
+
+import image from './assets/social-icons' 
 
 /**
  * @author
@@ -23,13 +26,15 @@ const App = (props) => {
 
   return (
     <div>
+      <img src='./assets/social-icons/github.png' alt=""></img>
       <Hero />
       <Specializing />
-      <Expertise />
+      {/* <Expertise /> */}
       <LatestProjects />
       <Qualification />
       <Testimonials />
       <Footer />
+      <Scrollup/> 
     </div>
   );
 };
